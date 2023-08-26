@@ -1,0 +1,62 @@
+html {
+    font-family: Poppins;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Poppins;
+    line-height: 1.4;
+}
+
+.nav-link {
+    color: #025900;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+
+span {
+    color: #025900;
+}
+
+.collapse {
+    justify-content: right;
+}
+
+.collapse.show {
+    /* background-color: antiquewhite; */
+    width: 50%;
+}
+
+.section-1 {
+    /* display: flex;
+    align-items: center; */
+    height: 100vh;
+    /* height: 100%; */
+    /* width: 100%; */
+    background-image: url(section-1.png);
+    /* margin-top: -50px; */
+}
+
+.section-1 p {
+    line-height: 2.07;
+}
+
+.content-1 {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.content-1 button {
+    background-color: #025900;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-family: Poppins;
+}
