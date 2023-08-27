@@ -75,7 +75,6 @@ span {
 .row {
     display: flex;
     align-items: center;
-    padding-top: 50px;
 }
 
 .about-section {
@@ -104,6 +103,10 @@ span {
     font-size: 28px;
 }
 
+.about p {
+    text-align: justify;
+}
+
 .about button {
     background-color: transparent;
     color: #025900;
@@ -115,6 +118,7 @@ span {
 
 .about button:hover {
     background-color: #025900;
+    border: 1px solid #025900;
     border: none;
     color: #fff;
 }
