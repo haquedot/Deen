@@ -17,6 +17,7 @@ p {
     font-size: 14px;
     font-weight: 400;
     font-family: Poppins;
+    line-height: 2.07;
 }
 
 span {
@@ -50,10 +51,6 @@ span {
     display: block;
 }
 
-.section-1 p {
-    line-height: 2.07;
-}
-
 .content-1 {
     display: flex;
     align-items: center;
@@ -67,6 +64,59 @@ span {
     border-radius: 8px;
     padding: 10px 30px;
     font-family: Poppins;
+}
+
+.content-1 button:hover {
+    background-color: #014400;
+    border: none;
+    color: #fff;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.about-img {
+    display: flex;
+    justify-content: center;
+}
+
+.about h1 {
+    color: #025900;
+    font-size: 28px;
+}
+
+.about button {
+    background-color: transparent;
+    color: #025900;
+    border: 1px solid #025900;
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-family: Poppins;
+}
+
+.about button:hover {
+    background-color: #025900;
+    border: none;
+    color: #fff;
 }
 
 @media(max-width:991px) {
