@@ -123,6 +123,41 @@ span {
     color: #fff;
 }
 
+footer {
+    padding-top: 80px;
+    background-color: #014400;
+    color: #ffffff;
+}
+
+footer .logo {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+footer h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .bi {
+    margin-right: 5px;
+}
+
 @media(max-width:991px) {
     .sidebar {}
 }
